@@ -2,6 +2,7 @@ import {FaFacebook, FaInstagram, FaTiktok} from 'react-icons/fa';
 import Image from 'next/image';
 import {FiMail} from "react-icons/fi";
 import { MdLocationPin, MdOutlineLocalPhone, MdAccessTime } from "react-icons/md";
+import { IconType } from 'react-icons';
 
 // ─── Constants ──────────────────────────────────────────────────────────────
 const WA_NUMBER = "6281234567890";
@@ -44,7 +45,7 @@ function SocialButton({
   href,
   color,
 }: {
-  icon: any;
+  icon: IconType;
   href: string;
   color: string;
 }) {
