@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   description:
     "Pendampingan penuh, hotel nyaman, pembimbing berpengalaman, dan pelayanan terbaik untuk perjalanan ibadah yang lebih tenang dan bermakna.",
   keywords: "umroh, haji, travel umroh, paket umroh, umrohinaja",
+  icons: {
+    icon: "/icons/umrohinaja.jpg",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

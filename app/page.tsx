@@ -1,10 +1,10 @@
-import Navbar from "@/components/ui/layout/Navbar";
-import HeroSection from "@/components/ui/sections/HeroSection";
-import FeaturesSection from "@/components/ui/sections/FeaturesSection";
-import PackagesSection from "@/components/ui/sections/PackagesSection";
-import TestimonialsSection from "@/components/ui/sections/TestimonialsSection";
-import FAQSection from "@/components/ui/sections/FAQSection";
-import Footer from "@/components/ui/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
+import HeroSection from "@/components/sections/HeroSection";
+import FeaturesSection from "@/components/sections/FeaturesSection";
+import PackagesSection from "@/components/sections/PackagesSection";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import FAQSection from "@/components/sections/FAQSection";
+import Footer from "@/components/layout/Footer";
 
 export default function HomePage() {
   return (
